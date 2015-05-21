@@ -54,7 +54,7 @@ app.controller("MainController", function($scope){
 	    }
 	];
 
-	$scope.showCard(card){
+	$scope.showCard = function(card){
 		$scope.currentCard = card; 
 	}
 
