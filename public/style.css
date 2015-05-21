@@ -46,3 +46,12 @@
     color: green; }
   .answer-feedback.incorrect {
     color: red; }
+
+#questionMenu{
+  float: right;
+  padding-right: 10px;
+}
+.questions{
+  list-style: circle;
+  margin: 5px;
+}
